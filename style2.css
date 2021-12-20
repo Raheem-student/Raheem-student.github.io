@@ -13,19 +13,44 @@ body{
 
 
 header{
-    /*background-color: blue;*/
+    /*background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;*/
     height:118px;
     width:1024px;
     text-align: center;
 }
 
+li a {
+    display: block;
+    color: white;
+    float: left;
+    /*text-align: center;*/
+    padding: 9px 12px;
+    text-decoration: none;
+}
 
+li a:hover {
+   background-color: #111;
+}
+
+li {
+    float: left;
+  }
+
+a{
+    
+    display: block;
+    padding: 0px;
+    
+   
+}
 nav{
     background-color:rgb(74, 75, 74);
     height:45px;
     width:1024px;
     text-align:center ;
-    font-size: 25px;
+    font-size: 26px;
     
 
 }
@@ -65,9 +90,21 @@ footer{
 }
 
 .thumbnail{
-    /*background-color: transparent;*/
+
+/*background-color: transparent;*/
     
 }
+
+.container2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1F2833;
+    width:1024px;
+}
+
 
 .container{
     margin-left: auto;
