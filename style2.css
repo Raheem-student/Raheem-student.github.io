@@ -11,7 +11,7 @@ body{
 }
 
 
-
+/*header styling for the top of my page*/
 header{
     /*background-color: blue;
     padding-top: 10px;
@@ -51,6 +51,8 @@ a{
     
    
 }
+
+/*my navigation styling*/
 nav{
     background-color:rgb(74, 75, 74);
     height:53px;
@@ -60,6 +62,8 @@ nav{
     
 
 }
+
+
 
 main{
    
@@ -71,6 +75,7 @@ main{
 
 }
 
+
 footer{
     background-color:rgb(74, 75, 74);
     height:300px;
@@ -81,6 +86,7 @@ footer{
     padding-right: 40px;*/
 }
 
+/*used to make my page titles special*/
 .special{
     font-size: 100px;
     padding-top: 20px;
@@ -95,12 +101,6 @@ footer{
 
 }
 
-.thumbnail{
-
-/*background-color: transparent;*/
-    
-}
-
 .container2{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -112,12 +112,16 @@ footer{
 }
 
 
+
 .container{
     margin-left: auto;
     margin-right: auto;
     background-color: #1F2833;
     width:1024px;
 }
+
+
+
 
 h1 {
     font-size: 84px;
@@ -129,6 +133,7 @@ h1 {
 }
 
 
+
 p{
     font-size: 18px;
     color:white;
@@ -136,23 +141,29 @@ p{
 
 }
 
+
+
 .ar{
     color: #46f8ec;
     font-family:Arial, Helvetica, sans-serif;
     /*text-decoration: none;*/
 }
 
+/*trying to style my menu text*/
 .menustyle{
     font-family: fantasy;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
+/*trying to colour my h2 tags*/
 h2{
     font-family: Helvetica, sans-serif;
     color: rgb(6, 137, 170);
     margin-left: 90px;
     margin-right: 90px;
 }
+
+/*referenced w3 schools to make a nice animated button*/
 .button{
 display: inline-block;
   border-radius: 4px;
@@ -169,7 +180,7 @@ display: inline-block;
 }
 
 
-/*referenced w3 schools to make a nice animated button*/
+
 .button span {
     cursor: pointer;
     display: inline-block;
